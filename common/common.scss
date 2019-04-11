@@ -18,8 +18,8 @@
   }
 }
 
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Roboto+Mono|Roboto+Slab");
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.3czhu.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Roboto+Mono|Roboto+Slab");
+@import url("https://fonts.3czhu.com/icon?family=Material+Icons");
 @import url("https://use.fontawesome.com/releases/v5.5.0/css/brands.css");
 blockquote::after, blockquote::before, .d-editor-preview div.poll[data-poll-type='multiple'] li[data-poll-option-id]::before, .expanded-quote div.poll[data-poll-type='multiple'] li[data-poll-option-id]::before, .d-editor-preview div.poll li[data-poll-option-id]::before, .expanded-quote div.poll li[data-poll-option-id]::before, .fa-anchor::before, .fa-angle-double-down::before, .fa-angle-double-up::before, .fa-angle-down::before, .fa-arrow-down::before, .fa-archive::before, .fa-arrows-h::before, .fa-arrow-left::before, .fa-arrow-up::before, .fa-asterisk::before, .fa-at::before, .fa-backward::before, .fa-ban::before, .fa-bar-chart-o::before,
 .fa-chart-bar::before, .fa-bars::before, .fa-bed::before, .fa-bold::before, .fa-book::before, .fa-bookmark::before, .fa-briefcase::before, .fa-calendar::before, .fa-calendar-plus-o::before, .fa-caret-down::before, .fa-caret-right::before, .fa-caret-up::before, .fa-certificate::before, .fa-check::before, .fa-check-square::before, .fa-check-square-o::before, .fa-chevron-down::before, .fa-chevron-up::before, .fa-circle::before, .fa-circle-o::before,
@@ -60,7 +60,8 @@ body {
 
 html {
   box-sizing: border-box;
-  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  /*font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;*/
+  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "Arial", sans-serif !important;
   font-size: initial;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -701,7 +702,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: "Roboto Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "Arial", sans-serif !important;
 }
 
 code {
@@ -2478,7 +2479,7 @@ div.ac-wrap input[type='text'] {
   min-width: 20.000008px;
 }
 .d-header-icons .d-icon {
-  color: inherit;
+  color: #fff;
 }
 .d-header-icons .icon {
   border: 0;
@@ -7889,7 +7890,7 @@ section.post-menu-area {
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1.066667;
-  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Microsoft YaHei", "Arial", sans-serif !important;
   font-weight: normal;
   margin: 0 0 32px;
   overflow: visible;
